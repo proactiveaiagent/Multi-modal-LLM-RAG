@@ -1,0 +1,10 @@
+{
+  "video": "video1_arrive_airport.mp4",
+  "output": {
+    "scene": "airport_LAX",
+    "location": "Los Angeles",
+    "action": "arriving",
+    "need_reminder": false,
+    "memory_action": "user_first_time_USA"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "video": "video2_baby_laugh_again.mp4",
+  "output": {
+    "scene": "home",
+    "people": [
+      {
+        "name": "baby",
+        "state": "laughing"
+      }
+    ],
+    "action": "baby_laughing",
+    "need_reminder": true,
+    "reminder_message": "Baby is laughing! Capture this moment now!",
+    "urgency": "high",
+    "auto_action": "take_photo"
+  }
+}

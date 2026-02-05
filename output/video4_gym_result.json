@@ -1,0 +1,16 @@
+{
+  "video": "video4_gym.mp4",
+  "output": {
+    "scene": "home",
+    "objects": [
+      {
+        "name": "scale",
+        "reading": "80kg"
+      }
+    ],
+    "user_state": "overweight_unhappy",
+    "action": "weighing_self",
+    "need_reminder": false,
+    "memory_action": "store_weight_goal"
+  }
+}

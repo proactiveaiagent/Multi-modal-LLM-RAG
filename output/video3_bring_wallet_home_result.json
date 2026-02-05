@@ -1,0 +1,12 @@
+{
+  "video": "video3_bring_wallet_home.mp4",
+  "output": {
+    "scene": "outdoor_sidewalk",
+    "user_state": "fainted",
+    "action": "sudden_collapse",
+    "need_reminder": true,
+    "reminder_message": "EMERGENCY: User fainted. Call emergency services immediately!",
+    "urgency": "critical",
+    "emergency_action": "call_911"
+  }
+}

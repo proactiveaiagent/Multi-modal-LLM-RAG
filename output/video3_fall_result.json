@@ -1,0 +1,12 @@
+{
+  "video": "video3_fall.mp4",
+  "output": {
+    "scene": "indoor_stairs",
+    "user_state": "fell_down",
+    "action": "fall_on_stairs",
+    "need_reminder": true,
+    "reminder_message": "EMERGENCY: User fell down stairs. Check for injuries, call for help!",
+    "urgency": "critical",
+    "emergency_action": "check_injury_call_help"
+  }
+}

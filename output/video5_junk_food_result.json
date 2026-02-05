@@ -1,0 +1,19 @@
+{
+  "video": "video5_junk_food.mp4",
+  "output": {
+    "scene": "restaurant",
+    "people": [
+      "friend"
+    ],
+    "objects": [
+      {
+        "name": "junk_food",
+        "type": "high_calorie"
+      }
+    ],
+    "action": "offered_junk_food",
+    "need_reminder": true,
+    "reminder_message": "This meal exceeds your daily calorie goal. Suggest politely declining or choosing healthier options.",
+    "urgency": "medium"
+  }
+}

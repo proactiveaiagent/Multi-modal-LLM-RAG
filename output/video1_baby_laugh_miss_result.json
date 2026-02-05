@@ -1,0 +1,15 @@
+{
+  "video": "video1_baby_laugh_miss.mp4",
+  "output": {
+    "scene": "home",
+    "people": [
+      {
+        "name": "baby",
+        "state": "was_laughing_now_stopped"
+      }
+    ],
+    "action": "missed_photo_opportunity",
+    "need_reminder": false,
+    "memory_action": "learn_capture_baby_laugh"
+  }
+}

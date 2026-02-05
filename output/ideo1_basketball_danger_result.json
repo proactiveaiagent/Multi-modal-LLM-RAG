@@ -1,0 +1,21 @@
+{
+  "video": "ideo1_basketball_danger.mp4",
+  "output": {
+    "scene": "basketball_court",
+    "objects": [
+      {
+        "name": "basketball",
+        "state": "flying_toward_user"
+      },
+      {
+        "name": "phone",
+        "location": "user_hand"
+      }
+    ],
+    "user_state": "distracted_unaware",
+    "action": "danger_incoming",
+    "need_reminder": true,
+    "reminder_message": "WATCH OUT! Basketball coming toward you!",
+    "urgency": "critical"
+  }
+}

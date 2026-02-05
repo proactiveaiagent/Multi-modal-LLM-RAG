@@ -1,0 +1,18 @@
+{
+  "video": "video4_forget_wallet.mp4",
+  "output": {
+    "scene": "restaurant",
+    "people": [
+      {
+        "name": "date",
+        "gender": "female",
+        "state": "enthusiastic"
+      }
+    ],
+    "user_state": "nervous_silent",
+    "action": "date_conversation_difficulty",
+    "need_reminder": true,
+    "reminder_message": "She's waiting for your response. Ask about her interests or compliment the restaurant.",
+    "urgency": "medium"
+  }
+}

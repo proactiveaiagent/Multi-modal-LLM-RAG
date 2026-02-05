@@ -1,0 +1,10 @@
+{
+  "video": "video1_walk_tired.mp4",
+  "output": {
+    "scene": "outdoor_sidewalk",
+    "user_state": "exhausted_elderly",
+    "action": "walking_with_difficulty",
+    "need_reminder": false,
+    "alert_level": "monitor"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "video": "video2_use_wallet.mp4",
+  "output": {
+    "scene": "restaurant",
+    "objects": [
+      {
+        "name": "wallet",
+        "owner": "user",
+        "location": "table"
+      }
+    ],
+    "action": "leaving_without_wallet",
+    "need_reminder": true,
+    "reminder_message": "Your wallet is on the table!",
+    "urgency": "high"
+  }
+}

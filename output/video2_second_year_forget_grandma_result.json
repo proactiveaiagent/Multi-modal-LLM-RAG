@@ -1,0 +1,13 @@
+{
+  "video": "video2_second_year_forget_grandma.mp4",
+  "output": {
+    "scene": "grandma_home",
+    "people": [
+      "grandma"
+    ],
+    "action": "forgot_greeting",
+    "need_reminder": true,
+    "reminder_message": "Call her 姥姥, say 姥姥好",
+    "urgency": "medium"
+  }
+}

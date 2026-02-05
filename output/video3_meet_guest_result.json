@@ -1,0 +1,15 @@
+{
+  "video": "video3_meet_guest.mp4",
+  "output": {
+    "scene": "hotel_lobby",
+    "people": [
+      {
+        "name": "Richard Andrew",
+        "role": "guest"
+      }
+    ],
+    "action": "guest_checking_in",
+    "need_reminder": false,
+    "memory_action": "store_guest_info"
+  }
+}

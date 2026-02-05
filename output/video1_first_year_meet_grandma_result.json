@@ -1,0 +1,13 @@
+{
+  "video": "video1_first_year_meet_grandma.mp4",
+  "output": {
+    "scene": "grandma_home",
+    "people": [
+      "grandma",
+      "mother"
+    ],
+    "action": "learning_to_greet",
+    "need_reminder": false,
+    "memory_action": "store_grandma_face"
+  }
+}

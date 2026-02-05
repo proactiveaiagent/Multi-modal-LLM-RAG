@@ -1,0 +1,8 @@
+{
+  "video": "video3_running.mp4",
+  "output": {
+    "scene": "track",
+    "action": "running_exercise",
+    "need_reminder": false
+  }
+}
