@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-本系统是一个基于RAG（检索增强生成）技术的多模态AI Agent，能够分析视频的视觉内容和音频信息，通过检索历史经验库提供主动式提醒和决策建议。
+本系统是一个基于RAG（检索增强生成）技术的多模态AI Agent，能够分析视频的视觉内容和音频信息，通过检索历史经验库提供主动式提醒和决策建议。https://github.com/proactiveaiagent/Multi-modal-LLM-RAG/blob/main/README.md
 
 ---
 
@@ -42,26 +42,51 @@ pip install pillow==10.4.0 numpy==1.26.0 pandas==2.3.3
 
 ---
 
+```markdown
 ## 部署步骤
 
 ### 第一步：下载模型
 
-#### LLaVA-1.5-7B多模态模型
+#### 1. LLaVA-1.5-7B多模态模型
+
+**方式一：HuggingFace下载**
 ```bash
 mkdir -p models/llava-1.5-7b
 huggingface-cli download liuhaotian/llava-v1.5-7b --local-dir models/llava-1.5-7b
 ```
 
-#### SentenceTransformer向量化模型
+**方式二：ModelScope魔塔下载**
 ```bash
 pip install modelscope
-python -c "from modelscope import snapshot_download; snapshot_download('iic/nlp_corom_sentence-embedding_chinese-base', cache_dir='models/')"
+python -c "from modelscope import snapshot_download; snapshot_download('lmms-lab/llava-v1.5-7b', cache_dir='models/llava-1.5-7b')"
 ```
 
-#### Whisper语音识别模型
+#### 2. SentenceTransformer向量化模型
+
+**方式一：HuggingFace下载**
 ```bash
-# 首次运行时自动下载，或手动下载：
+huggingface-cli download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir models/sentence-transformers
+```
+
+**方式二：ModelScope魔塔下载**
+```bash
+pip install modelscope
+python -c "from modelscope import snapshot_download; snapshot_download('iic/nlp_corom_sentence-embedding_chinese-base', cache_dir='models/sentence-transformers')"
+```
+
+#### 3. Whisper语音识别模型
+
+**方式一：自动下载（首次运行时）**
+系统会在首次运行 `build_audio_memory.py` 时自动下载
+
+**方式二：ModelScope魔塔下载**
+```bash
 python -c "from modelscope import snapshot_download; snapshot_download('iic/speech_whisper-base_asr_multilingual', cache_dir='models/whisper')"
+```
+
+**方式三：HuggingFace下载**
+```bash
+huggingface-cli download openai/whisper-base --local-dir models/whisper/whisper-base
 ```
 
 ### 第二步：准备测试视频
