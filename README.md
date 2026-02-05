@@ -42,7 +42,7 @@ pip install pillow==10.4.0 numpy==1.26.0 pandas==2.3.3
 
 ---
 
-```markdown
+
 ## 部署步骤
 
 ### 第一步：下载模型
