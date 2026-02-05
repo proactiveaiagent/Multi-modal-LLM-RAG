@@ -90,7 +90,7 @@ HuggingFace下载
 ```bash
 huggingface-cli download openai/whisper-base --local-dir models/whisper/whisper-base
 ```
-```
+
 
 
 ### 第二步：准备测试视频
